@@ -2,15 +2,22 @@
 
 > This repo includes intial code for social media app with basic styling. Its purpose is to be a starting point for Microverse students.
 
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+
+![ror-social-scaffold](https://user-images.githubusercontent.com/49276315/82429659-95f23980-9a8c-11ea-985e-1989fc0c6520.png)
+
+
+## Live Demo
+
+[Live Demo](#)
+
 ## Built With
 
 - Ruby v2.7.0
 - Ruby on Rails v5.2.4
-
-## Live Demo
-
-TBA
-
 
 ## Getting Started
 
@@ -52,18 +59,23 @@ Open `http://localhost:3000/` in your browser.
 ### Run tests
 
 ```
-    rpsec --format documentation
+    rspec --format documentation
 ```
 
-> Tests will be added by Microverse students. There are no tests for initial features in order to make sure that students write all tests from scratch.
+## Integration and Unit Test
 
-### Deployment
-
-TBA
+- Rspec
+- Capybara 
 
 ## Authors
 
-TBA
+
+👤**Samuel Kiroko N**
+
+- Twitter: [@kirokonjenga](https://twitter.com/kirokonjenga)
+- LinkedIn: [@samuel-kiroko](https://www.linkedin.com/in/samuel-kiroko/)
+- Personal Website: [kiroko.tech](https://www.kiroko.tech/)
+
 
 ## 🤝 Contributing
 
@@ -77,9 +89,13 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-TBA
+- Microverse
 
-## 📝 License
-
-TBA
-
+[contributors-shield]: https://img.shields.io/github/contributors/Samkiroko/Stay-in-touch.svg?style=flat-square
+[contributors-url]: https://github.com/Samkiroko/Stay-in-touch/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Samkiroko/Stay-in-touch.svg?style=flat-square
+[forks-url]: https://github.com/Samkiroko/Stay-in-touch/network/members
+[stars-shield]: https://img.shields.io/github/stars/Samkiroko/Stay-in-touch.svg?style=flat-square
+[stars-url]: https://github.com/Samkiroko/Stay-in-touch/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Samkiroko/Stay-in-touch.svg?style=flat-square
+[issues-url]: https://github.com/Samkiroko/Stay-in-touch/issues
