@@ -42,10 +42,11 @@ class User < ApplicationRecord
   end
 
   def confirm_invites(user)
-    self.update_attributes(confirmed: true)
-    Friendship.create!(friend_id: self.user_id,
-                  user_id: self.friend_id,
+    send_invitation.update_attributes(confirmed: true)
+    Friendship.create!(friend_id: send_invitation.user_id,
+                  user_id: send_invitation.friend_id,
                   confirmed: true)
+    friendship.save
   end
 
   def reject_invites(user)
