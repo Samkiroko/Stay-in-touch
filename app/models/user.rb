@@ -42,10 +42,8 @@ class User < ApplicationRecord
   end
 
   def confirm_invites(user)
-    send_invitation.update_attributes(confirmed: true)
-    Friendship.create!(friend_id: send_invitation.user_id,
-                  user_id: send_invitation.friend_id,
-                  confirmed: true)
+    friendship = inverse_friendships.where(user_id: user).first
+    friendship.status = true
     friendship.save
   end
 
