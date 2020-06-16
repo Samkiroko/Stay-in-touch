@@ -42,10 +42,10 @@ class User < ApplicationRecord
   end
 
   def confirm_invites(user)
-    friendship = friendships.where(status: true).find_by(friend: user)
-    friendship = inverse_friendships.where(status: true).find_by(user_id: user) if friendship.nil?
-    friendship.status = true
-    friendship.save
+    self.update_attributes(confirmed: true)
+    Friendship.create!(friend_id: self.user_id,
+                  user_id: self.friend_id,
+                  confirmed: true)
   end
 
   def reject_invites(user)
