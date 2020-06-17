@@ -2,9 +2,11 @@ class Friendship < ApplicationRecord
   belongs_to :user
   belongs_to :friend, class_name: 'User'
 
-  validate :friendship_valid?
+  #validate :friendship_valid?
 
   after_update :create_inverse_friendship
+  has_many :confirmed_friendships, -> { where confirmed: true }, class_name: "Friendship"
+  has_many :friends, through: :confirmed_friendships
 
   private
 
