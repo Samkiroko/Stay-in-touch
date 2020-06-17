@@ -1,7 +1,8 @@
 class Friendship < ApplicationRecord
   belongs_to :user
   belongs_to :friend, class_name: 'User'
- 
+
+  #validate :friendship_valid?
 
   after_update :create_inverse_friendship
   has_many :confirmed_friendships, -> { where confirmed: true }, class_name: "Friendship"

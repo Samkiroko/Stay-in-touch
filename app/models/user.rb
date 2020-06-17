@@ -21,13 +21,13 @@ class User < ApplicationRecord
     friends_array.compact
   end
 
-  # def pending_friends
-  #   friendships.map { |friendship| friendship.friend unless friendship.confirmed }.compact
-  # end
+  def pending_friends
+    friendships.map { |friendship| friendship.friend unless friendship.confirmed }.compact
+  end
 
-  # def friend_requests
-  #   inverse_friendships.map { |friendship| friendship.user unless friendship.confirmed }.compact
-  # end
+  def friend_requests
+    inverse_friendships.map { |friendship| friendship.user unless friendship.confirmed }.compact
+  end
 
   def friend?(user)
     friends.include?(user)
