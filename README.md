@@ -2,22 +2,14 @@
 
 > This repo includes intial code for social media app with basic styling. Its purpose is to be a starting point for Microverse students.
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-
-![ror-social-scaffold](https://user-images.githubusercontent.com/49276315/82429659-95f23980-9a8c-11ea-985e-1989fc0c6520.png)
-
-
-## Live Demo
-
-[Live Demo](#)
-
 ## Built With
 
 - Ruby v2.7.0
 - Ruby on Rails v5.2.4
+
+## Live Demo
+
+[Heroku Demo Link](https://evening-hollows-81762.herokuapp.com/users/sign_in)
 
 ## Getting Started
 
@@ -45,7 +37,6 @@ Setup database with:
 ```
 
 
-
 ### Usage
 
 Start server with:
@@ -59,23 +50,22 @@ Open `http://localhost:3000/` in your browser.
 ### Run tests
 
 ```
-    rspec --format documentation
+    rpsec --format documentation
 ```
-
-## Integration and Unit Test
-
-- Rspec
-- Capybara 
 
 ## Authors
 
+👤 **Luis Saavedra**
+- Github: [@nriqu322](https://github.com/nriqu322)
+- Twitter: [@nriqu322](https://twitter.com/nriqu322)
+- Linkedin: [Linkedin](https://linkedin.com/in/luis-saavedra-sanchez/) 
 
-👤**Samuel Kiroko N**
 
-- Twitter: [@kirokonjenga](https://twitter.com/kirokonjenga)
-- LinkedIn: [@samuel-kiroko](https://www.linkedin.com/in/samuel-kiroko/)
-- Personal Website: [kiroko.tech](https://www.kiroko.tech/)
+👤 **Seth Zea**
 
+- Github: [@sz16900](https://github.com/sz16900)
+- Twitter: [@_sethzea_](https://twitter.com/_sethzea_)
+- Linkedin: [Linkedin](https://www.linkedin.com/in/seth-zea/)
 
 ## 🤝 Contributing
 
@@ -89,13 +79,4 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Microverse
-
-[contributors-shield]: https://img.shields.io/github/contributors/Samkiroko/Stay-in-touch.svg?style=flat-square
-[contributors-url]: https://github.com/Samkiroko/Stay-in-touch/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Samkiroko/Stay-in-touch.svg?style=flat-square
-[forks-url]: https://github.com/Samkiroko/Stay-in-touch/network/members
-[stars-shield]: https://img.shields.io/github/stars/Samkiroko/Stay-in-touch.svg?style=flat-square
-[stars-url]: https://github.com/Samkiroko/Stay-in-touch/stargazers
-[issues-shield]: https://img.shields.io/github/issues/Samkiroko/Stay-in-touch.svg?style=flat-square
-[issues-url]: https://github.com/Samkiroko/Stay-in-touch/issues
+- [Microverse](https://microverse.org)
