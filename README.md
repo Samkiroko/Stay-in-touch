@@ -9,8 +9,7 @@
 
 ## Live Demo
 
-TBA
-
+[Heroku Demo Link](https://evening-hollows-81762.herokuapp.com/users/sign_in)
 
 ## Getting Started
 
@@ -38,7 +37,6 @@ Setup database with:
 ```
 
 
-
 ### Usage
 
 Start server with:
@@ -55,15 +53,19 @@ Open `http://localhost:3000/` in your browser.
     rpsec --format documentation
 ```
 
-> Tests will be added by Microverse students. There are no tests for initial features in order to make sure that students write all tests from scratch.
-
-### Deployment
-
-TBA
-
 ## Authors
 
-TBA
+👤 **Luis Saavedra**
+- Github: [@nriqu322](https://github.com/nriqu322)
+- Twitter: [@nriqu322](https://twitter.com/nriqu322)
+- Linkedin: [Linkedin](https://linkedin.com/in/luis-saavedra-sanchez/) 
+
+
+👤 **Seth Zea**
+
+- Github: [@sz16900](https://github.com/sz16900)
+- Twitter: [@_sethzea_](https://twitter.com/_sethzea_)
+- Linkedin: [Linkedin](https://www.linkedin.com/in/seth-zea/)
 
 ## 🤝 Contributing
 
@@ -77,9 +79,4 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-TBA
-
-## 📝 License
-
-TBA
-
+- [Microverse](https://microverse.org)
