@@ -5,8 +5,6 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-# Scaffold for social media app with Ruby on Rails
-
 > This repo includes intial code for social media app with basic styling. Its purpose is to be a starting point for Microverse students.
 
 ![ror-social-scaffold](https://user-images.githubusercontent.com/49276315/82429659-95f23980-9a8c-11ea-985e-1989fc0c6520.png)
