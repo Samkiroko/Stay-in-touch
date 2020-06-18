@@ -1,5 +1,10 @@
 # Scaffold for social media app with Ruby on Rails
 
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+
 > This repo includes intial code for social media app with basic styling. Its purpose is to be a starting point for Microverse students.
 
 ## Built With
@@ -9,7 +14,7 @@
 
 ## Live Demo
 
-[Heroku Demo Link](https://evening-hollows-81762.herokuapp.com/users/sign_in)
+[Heroku Demo Link](https://sam-stay-in-touch.herokuapp.com/)
 
 ## Getting Started
 
@@ -36,7 +41,6 @@ Setup database with:
    rails db:migrate
 ```
 
-
 ### Usage
 
 Start server with:
@@ -55,17 +59,11 @@ Open `http://localhost:3000/` in your browser.
 
 ## Authors
 
-👤 **Luis Saavedra**
-- Github: [@nriqu322](https://github.com/nriqu322)
-- Twitter: [@nriqu322](https://twitter.com/nriqu322)
-- Linkedin: [Linkedin](https://linkedin.com/in/luis-saavedra-sanchez/) 
+👤 **Samuel kiroko N**
 
-
-👤 **Seth Zea**
-
-- Github: [@sz16900](https://github.com/sz16900)
-- Twitter: [@_sethzea_](https://twitter.com/_sethzea_)
-- Linkedin: [Linkedin](https://www.linkedin.com/in/seth-zea/)
+- Twitter: [@kirokonjenga](https://twitter.com/kirokonjenga)
+- LinkedIn: [@samuel-kiroko](https://www.linkedin.com/in/samuel-kiroko/)
+- Personal Website: [kiroko.tech](https://www.kiroko.tech/)
 
 ## 🤝 Contributing
 
@@ -80,3 +78,13 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - [Microverse](https://microverse.org)
+
+[contributors-shield]: https://img.shields.io/github/contributors/Samkiroko/Stay-in-touch.svg?style=flat-square
+[contributors-url]: https://github.com/Samkiroko/Stay-in-touch/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Samkiroko/Stay-in-touch
+[forks-url]: https://github.com/Samkiroko/Stay-in-touch/network/members
+[stars-shield]: https://img.shields.io/github/stars/Samkiroko/Stay-in-touch
+[stars-url]: https://github.com/Samkiroko/Stay-in-touch/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Samkiroko/Stay-in-touch
+[issues-url]: https://github.com/Samkiroko/Stay-in-touch/issues
+[license-shield]: https://img.shields.io/github/license/Samkiroko/Stay-in-touch
