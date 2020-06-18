@@ -1,21 +1,17 @@
 Rails.application.routes.draw do
-
-
   root 'posts#index'
 
-  delete 'remove_friend' => 'friendships#destroy'
-  get 'send_invite' => 'friendships#send_invitation'
-  get 'accept_invite' => 'friendships#accept_invitation'
-  get 'pending_invite' => 'friendships#pending_invitation'
-  delete 'reject_invite' => 'friendships#reject_invitation'
-
   devise_for :users
-  resources :friendships
+
   resources :users, only: [:index, :show]
   resources :posts, only: [:index, :create] do
-    resources :comments, only: [:create]
-    resources :likes, only: [:create, :destroy]
+  resources :comments, only: [:create]
+  resources :likes, only: [:create, :destroy]
   end
 
+  get '/friend_request', to: 'friendships#create'
+  get '/accept_friend', to: 'friendships#update'
+  get '/decline_friend', to: 'friendships#destroy' 
+ 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
